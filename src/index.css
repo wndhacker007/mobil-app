@@ -1,13 +1,257 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  height: 100vh;
 }
+
+#root{
+  max-width: 1920px;
+  width: 100%;
+}
+
+.mainaka{
+  max-width: 1920px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.slider{
+  width: 393px;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.text > p{
+  font-family: NATS;
+font-size: 27px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.07999999821186066px;
+text-align: center;
+
+
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 20px;
+}
+
+.mainaka>p{
+  width: 311px;
+height:  14px;
+letter-spacing: 2px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.textOne{
+  width: 360px;
+height: 24px;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+nav > .need{
+  width: 361px;
+height: 95px;
+top: 116px;
+left: 16px;
+padding: 15px 20px 15px 20px;
+gap: 39px;
+border-radius: 7px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #9682B6;
+padding-bottom: 20px;
+}
+
+.mainaka>h1{
+  
+  font-family: NATS;
+font-size: 24px;
+font-weight: bold;
+line-height: 20px;
+text-align: left;
+padding: 10px 220px 0 0;
+}
+
+.foter{
+  position: fixed;
+  top: 635px;
+  right: 0;
+  background-color: #fff;
+}
+
+
+
+nav > .text{
+  width: 357px;
+height: 20px;
+display: flex;
+gap: 200px;
+align-items: center;
+justify-content: center;
+padding-left: 5px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+svg{
+  width: 20%;
+}
+
+.slider > button{
+  background: none;
+  border: none;
+  
+}
+
+.bosh {
+  padding-top: 10px; 
+}
+
+.need > .ong > h1{
+  color: #F4F4F4;
+  font-family: NATS;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40.56px;
+  text-align: left;
+  
+}
+
+.need > .ong > span{
+  font-family: NATS;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #fff;
+}
+
+.foter{
+  width: 393px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.foter > .divlar{
+  width: 313px;
+height: 55px;
+gap: 64px;
+display: flex;
+
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.foter > .divlar > .card-f img{
+  width: 80%;
+}
+
+.foter > .divlar > .card-f{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards{
+  width: 361px;
+height: 585px;
+display: grid;
+grid-template-columns: repeat(2, 4fr);
+padding-left: 25px;
+gap: 10px;
+}
+
+.card {
+  width: 168.5px;
+height: 171px;
+padding: 12px 0px 0px 0px;
+border-radius: 14px 0px 0px 0px;
+display: flex;
+justify-content: center;
+gap: 10px;
+flex-direction: column;
+padding-left: 5px;
+}
+
+
+
+.card > img{
+  width: 144.5px;
+height: 101px;
+}
+
+.card > p{
+  font-family: NATS;
+font-size: 20px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+
+}
+
+.first> p{
+  font-family: NATS;
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+padding: 20px;
+color: #2E2D2D;
+margin-left: 5px;
+}
+
+/* modal */
+.modal{
+  width: 380px;
+  height: 700px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px gray; 
+  border: none;
+  border-radius: 8px;
+}
+
+
+
